@@ -2,6 +2,9 @@
 <p>Type in all the places you've been to.</p>
 
 <ul>
+  <% @places.each() do |place| %>
+   <li><%= place %></li>
+   <% end %>
 
 </ul>
 
@@ -9,6 +12,6 @@
 
 <form action="form_places">
   <label for="input_places">Place</label>
-  <input id="input_places"type="text" name="input_places">
+  <input id="input_places" type="text" name="input_places">
   <button type="submit">Enter</button>
 </form>
