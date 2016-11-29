@@ -17,4 +17,12 @@ describe(Places) do
       expect(Places.all()).to(eq([]))
     end
   end
+
+  describe('#save') do
+    it "saves the place name to the all_places array" do
+      test_place = Places.new('montana')
+      test_place.save()
+      expect(Places.all()).to(eq(['montana']))
+    end
+  end
 end

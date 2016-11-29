@@ -17,4 +17,7 @@ class Places
     @@all_places
   end
 
+  def save
+    @@all_places.push(@place_name)
+  end
 end
