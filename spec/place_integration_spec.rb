@@ -8,6 +8,6 @@ describe('the path of places', {:type => :feature}) do
     visit('/')
     fill_in('input_places', :with => 'montana')
     click_button('Enter')
-    expect(page).to have_content('montana')
+    expect(page).to have_content('You entered that place and now it is in the list!!!!! Back')
   end
 end
