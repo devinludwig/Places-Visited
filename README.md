@@ -16,8 +16,7 @@ $ cd places-visited
 $ bundle install
 $ ruby app.rb
 ```
-Now you can visit localhost:4567 and test it yourself!
-tri
+Now you can visit localhost:4567 and try it yourself!
 ## Known Bugs
 
 If you notice any bugs or problems you can fill out an issue on [Kevin's](http://www.github.com/kftwotwo/places-visited/issues)  page or [Eric's](https://github.com/devinludwig/Places-Visited/issues) page!
