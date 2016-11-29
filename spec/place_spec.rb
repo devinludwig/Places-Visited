@@ -11,4 +11,10 @@ describe(Places) do
      expect(test_place.visited_places()).to(eq('montana'))
    end
  end
+
+  describe('.all') do
+    it "it will show nothing in the array" do
+      expect(Places.all()).to(eq([]))
+    end
+  end
 end

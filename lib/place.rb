@@ -12,4 +12,9 @@ class Places
   def visited_places
     @place_name
   end
+
+  define_singleton_method(:all) do
+    @@all_places
+  end
+
 end
